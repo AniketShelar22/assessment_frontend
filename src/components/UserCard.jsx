@@ -43,7 +43,7 @@ export default function UserCard({ user }) {
             <FaPhone className="text-gray-500" />
             {user.phone}
           </li>
-          <li className="flex items-center gap-2">
+          {/* <li className="flex items-center gap-2">
             <FaGlobe className="text-gray-500" />
             <a
               href={user.website.startsWith("http") ? user.website : `https://${user.website}`}
@@ -53,7 +53,7 @@ export default function UserCard({ user }) {
             >
               {user.website}
             </a>
-          </li>
+          </li> */}
         </ul>
 
         {/* Company Info */}
